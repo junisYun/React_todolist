@@ -14,13 +14,13 @@ function PostWrapper() {
         <div className="PostWrapper mt-3">
             <Nav variant="pills">
                 <Nav.Item>
-                    <Nav.Link as={Link} Link to="/" eventKey="link-1">Home</Nav.Link>
+                    <Nav.Link as={Link} Link to="/React_todolist" eventKey="link-1">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link as={Link} Link to="/todolist" eventKey="link-2">To Do List</Nav.Link>
+                    <Nav.Link as={Link} Link to="/React_todolist/todolist" eventKey="link-2">To Do List</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link as={Link} Link to="/phonebook" eventKey="link-3">Phone Book</Nav.Link>
+                    <Nav.Link as={Link} Link to="/React_todolist/phonebook" eventKey="link-3">Phone Book</Nav.Link>
                 </Nav.Item>
             </Nav>
 
