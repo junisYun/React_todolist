@@ -26,14 +26,14 @@ function PostWrapper() {
 
 
             {/* 메인화면 */}
-            <Route exact path="/">
+            <Route exact path="/React_todolist">
                 <div>
                     <Home></Home>
                 </div>
             </Route>
 
             {/* 투 두 리스트 */}
-            <Route exact path="/todolist">
+            <Route exact path="/React_todolist/todolist">
                 <div>
                     <TodoProvider>
                         <TodoTemplate>
@@ -47,7 +47,7 @@ function PostWrapper() {
 
 
             {/* 전화번호부 */}
-            <Route exact path="/phonebook">
+            <Route exact path="/React_todolist/phonebook">
                 <div>
                     <PhoneBook />
                 </div>
